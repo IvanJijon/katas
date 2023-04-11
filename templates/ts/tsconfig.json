@@ -5,9 +5,10 @@
         "moduleResolution": "nodenext",
         "target": "ES2020",
         "sourceMap": true,
-        "outDir": "dist"
+        "outDir": "dist",
     },
     "include": [
-        "kata/**/*"
+        "kata/**/*.ts",
+        "test/**/*.ts"
     ],
 }
