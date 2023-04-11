@@ -15,13 +15,14 @@ fi
 npm init -y
 
 npm install typescript --save-dev
+npm install ts-node --save-dev
 
 tsc --init
 
 # 2. install dependencies
 
 # install mocha's associated types
-npm install -D @types/node
+npm install @types/node --save-dev
 
 # install mocha
 npm install mocha --save-dev
