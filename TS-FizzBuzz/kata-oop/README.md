@@ -6,7 +6,7 @@ When solving this kata I focused on:
 
     - TDD methodology
     - Naming (variables, classes, methods, ...)
-    - Object Oriented Wparadigm 
+    - Object Oriented paradigm 
     - Following SOLID principles
 
 Since this Kata can have multiple approaches I chose an approach where the replacement `rules` can be defined by a _user_. I simulate the user defined rules in variable `DEFINED_RULES`. The order matters.
