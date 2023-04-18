@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        // https://www.typescriptlang.org/docs/handbook/esm-node.html
+        "module": "NodeNext",
+        "moduleResolution": "nodenext",
+        "target": "ES2020",
+        "sourceMap": true,
+        "outDir": "dist",
+    },
+    "include": [
+        "kata-oop/**/*.ts",
+        "test/**/*.ts"
+    ],
+}
