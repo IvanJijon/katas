@@ -2,14 +2,24 @@
 
 FizzBuzz kata is a classic. The kata statement is available [here](https://codingdojo.org/kata/FizzBuzz/).
 
-When solving this kata I focused on:
+## I focused on
 
     - TDD methodology
     - Naming (variables, classes, methods, ...)
     - Object Oriented paradigm 
     - Following SOLID principles
 
-Since this Kata can have multiple approaches I chose an approach where the replacement `rules` can be defined by a _user_. I simulate the user defined rules in variable `DEFINED_RULES`. The order matters.
+## What I like about my solution
+
+Rules are **flexible** and **new rule logic** can be **easily incorporated** by a user with **little maintenance** work from the development team; development time is expensive.
+
+## Approach
+
+Since this Kata can have multiple approaches I chose an approach where the replacement `rules` can be defined by a _user_. The order in which those rules are applied matters.
+
+### Comments on my approach
+
+I simulate the user defined rules in variable `DEFINED_RULES`.
 
 All the rules have a replacement logic. An interface `IRule` allows to have different kind of rules, each one with its own logic.
 
@@ -25,4 +35,4 @@ Let's suppose another rule should be added to the existing ones but with a diffe
 
 We should then create an `ExclamationRule` that implements this logic and add it to the `DEFINED_RULES` at the end.
 
-Rules are **flexible** and **new logics** can be **easily incorporated** by a user with **little maintenance** work from the dev team.
+
