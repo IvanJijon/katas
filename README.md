@@ -11,6 +11,10 @@ First, it helps me keep track of my training. Even if I have done many katas in 
 
 Second, it is somehow a **portfolio**. If you are here because you are considering hiring me, you can have a quick idea of my skills.
 
+If you are interested in my programming skills, you can also find my solutions to Advent of Code challenges here:
+- [Advent of Code 2021](https://github.com/IvanJijon/AdventOfCode2021)
+- [Advent of Code 2022](https://github.com/IvanJijon/AdventOfCode2022)
+
 So please, don't hesitate to take a look at my code. :wink:
 
 ## Programming languages (PL)
